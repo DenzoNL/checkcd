@@ -7695,6 +7695,14 @@ body {
   color: #efefef;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(78, 78, 78, 0.5);
+}
+
 .navbar-inverse {
   background-color: transparent;
   border-color: transparent;
@@ -7719,6 +7727,14 @@ body {
   height: 700px !important;
 }
 
+.modal-body::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background: rgba(78, 78, 78, 0.5);
+}
+
 .modal-footer {
   border-top: none;
 }
@@ -7726,6 +7742,10 @@ body {
 pre {
   background-color: transparent;
   border: none;
+}
+
+.close, .close:hover {
+  color: #fff !important;
 }
 
 .form-control {

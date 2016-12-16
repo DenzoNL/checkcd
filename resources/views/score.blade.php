@@ -102,9 +102,7 @@
                 <h4 class="modal-title" id="jsonModalLabel">JSON</h4>
             </div>
             <div class="modal-body">
-                <pre>
-                    <code>{{$json}}</code>
-                </pre>
+                <pre><code style="background: rgba(19, 19, 19, 0)">{{$json}}</code></pre>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
