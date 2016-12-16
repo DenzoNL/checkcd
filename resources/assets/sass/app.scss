@@ -1,0 +1,60 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+// Variables
+@import "variables";
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  background-color: transparent;
+  color: #efefef;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.bg-black {
+  background-color: rgba(19, 19, 19, 0.69);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-content {
+  background-color: rgba(19, 19, 19, 0.69);
+}
+
+.modal-body {
+  overflow-y: auto;
+  height: 700px !important;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+pre {
+  background-color: transparent;
+  border: none;
+}
+
+.form-control {
+  color: #efefef;
+  background-color: rgba(19, 19, 19, 0.69);
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.full {
+  background: url('/img/bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
