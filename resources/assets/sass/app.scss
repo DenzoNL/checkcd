@@ -27,7 +27,7 @@ body {
 .bg-black {
   background-color: rgba(19, 19, 19, 0.69);
   padding: 25px;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .modal-header {
@@ -69,7 +69,19 @@ pre {
   color: #efefef;
   background-color: rgba(19, 19, 19, 0.69);
   border-color: transparent;
-  border-radius: 5px;
+  border-radius: 6px;
+}
+
+.btn-bw {
+  color: #efefef;
+  background-color: #090909;
+  border-color: #090909;
+}
+
+.btn-bw:hover {
+  color: #090909;
+  background-color: #efefef;
+  border-color: #efefef;
 }
 
 .full {

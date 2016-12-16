@@ -79,7 +79,7 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <button type="button" style="margin-top: 1em;" class="btn btn-default btn-lg" data-toggle="modal"
+            <button type="button" style="margin-top: 1em;" class="btn btn-bw btn-lg" data-toggle="modal"
                     data-target="#jsonModal">
                 View JSON
             </button>
@@ -105,7 +105,7 @@
                 <pre><code style="background: rgba(19, 19, 19, 0)">{{$json}}</code></pre>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-bw" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
