@@ -63,16 +63,16 @@
         },
         {
             "name": "denzo/riplogchecker",
-            "version": "v0.1.9",
+            "version": "v0.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DenzoNL/riplogchecker.git",
-                "reference": "7d8295c562c4e9301371e77bad666ee9b0c9329b"
+                "reference": "569f5c3a79019d743457d826719d19848c4ccd83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DenzoNL/riplogchecker/zipball/7d8295c562c4e9301371e77bad666ee9b0c9329b",
-                "reference": "7d8295c562c4e9301371e77bad666ee9b0c9329b",
+                "url": "https://api.github.com/repos/DenzoNL/riplogchecker/zipball/569f5c3a79019d743457d826719d19848c4ccd83",
+                "reference": "569f5c3a79019d743457d826719d19848c4ccd83",
                 "shasum": ""
             },
             "require": {
@@ -102,7 +102,7 @@
                 }
             ],
             "description": "A CD rip log checker",
-            "time": "2016-12-16 11:43:20"
+            "time": "2016-12-19 11:31:14"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
