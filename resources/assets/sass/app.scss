@@ -5,8 +5,14 @@
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+html {
+  position: relative;
+  min-height: 97%;
+}
+
 body {
   margin-top: 50px; /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  margin-bottom: 60px;
   background-color: transparent;
   color: #efefef;
 }
@@ -90,4 +96,17 @@ pre {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: transparent;
+}
+
+.container .footer-text {
+  margin: 20px 0;
 }
